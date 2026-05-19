@@ -1,0 +1,6 @@
+CREATE DATABASE blog_db;
+CREATE TABLE visitors (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ip_address VARCHAR(45),
+    visit_time DATETIME DEFAULT CURRENT_TIMESTAMP
+);
